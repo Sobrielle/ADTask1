@@ -1,0 +1,36 @@
+body{
+    /* background: radial-gradient(circle at center, #fff7ec 30%, #f5e1c5 70%) no-repeat center center fixed; */
+    background-image: url(./BACKGROUND.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#header img{
+    padding-left: 5vw;
+    padding-top: 15vh;
+    height: 40vh;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+a{
+    padding: 15px;
+    background-color: #da9acf;
+    border: 0px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    margin-left: 40%;
+    margin-top: 70px; /* Increased margin-top to move the button down */
+    border-radius: 25px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+    a:hover{
+        background-color: #c682ba;
+        transition: 0.5s;
+    }
+
+
